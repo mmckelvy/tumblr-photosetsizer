@@ -1,0 +1,14 @@
+.photoset-container {
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.photoset-photo {
+	padding: 3px;
+	box-sizing: border-box;
+
+}
+
