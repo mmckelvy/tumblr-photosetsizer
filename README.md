@@ -33,4 +33,4 @@ That's all there is to it.
 ###### Note that this script only sizes the photos -- you will need to add the necessary styling to line them up / add  desired spacing.  I have used flexbox to style the photos in the included example.  See the photoset.css file.
 
 # Tests / Example
-Go to [(http://photosetsizer.tumblr.com/)] to see photoset.js in action.
+Go to http://photosetsizer.tumblr.com/ to see photoset.js in action.
