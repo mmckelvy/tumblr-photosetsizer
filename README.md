@@ -1,7 +1,7 @@
 An iframeless tumblr photoset sizer that works in desktop and mobile browsers
 
 # Overview
-Tumblr uses iframes to render photosets (`{Photoset}`).  In addition to the usual problems associated with iframes, tumblr's photoset iframes do not behave properly in mobile browsers.  This module replaces tumblr's native photosets with an iframeless implementation so you have cleaner access to the photos and can display them properly in mobile browsers.
+Tumblr uses iframes to render photosets (`{Photoset}`).  In addition to the usual problems associated with iframes, tumblr's photoset iframes do not behave properly in mobile browsers.  This module fixes these problems by sizing the photosets without the iframes.
 
 # Usage
 
@@ -34,4 +34,4 @@ That's all there is to it.
 ###### Note that this script only sizes the photos -- you will need to add the necessary styling to line them up / add desired spacing.  I have used flexbox to style the photos in the included example.  See the photoset.css file.
 
 # Tests / Example
-Go to http://photosetsizer.tumblr.com/ to see photoset.js in action.
+Go to http://photosetsizer.tumblr.com/ to see photoset.js in action.  Styled using flexbox so requires IE 11 / Firefox 28+.  Any recent version of Chrome / Safari should be fine.
