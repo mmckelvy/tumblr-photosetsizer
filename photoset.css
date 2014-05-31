@@ -4,11 +4,13 @@
 	
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
+
+	align-items: flex-start;
 }
 
 .photoset-photo {
 	padding: 3px;
 	box-sizing: border-box;
-
+	display: block;
 }
 
